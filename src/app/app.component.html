@@ -1,0 +1,10 @@
+<div class="assignment1">
+  <mat-form-field class="ass1">
+    <mat-label>Password</mat-label>
+    <input matInput placeholder="password" value="{{huh}}" type="Password"  [type]="hide ? 'text':'password'" required>
+                     <i class="material-icons" matSuffix (click) ="om()">
+                      {{hide ? 'visibility':'visibility_off'}}
+                    </i>             
+  </mat-form-field>
+</div> 
+<router-outlet></router-outlet>
